@@ -38,3 +38,4 @@ if __name__ == "__main__":
     print(queue1.front())  # 2
     print(queue1.dequeue())  # 2
     print(queue1.is_empty())  # True
+    
