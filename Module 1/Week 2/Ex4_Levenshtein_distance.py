@@ -1,5 +1,5 @@
 def levenshtein_distance(token1, token2):
-    distances = [[0] * (len(token2) + 1) for i in range(len(token1) + 1)]
+    distances = [[0] * (len(token2) + 1) for _ in range(len(token1) + 1)]
 
     for t1 in range(len(token1) + 1):
         distances[t1][0] = t1
